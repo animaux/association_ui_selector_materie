@@ -134,7 +134,7 @@
 			}
 
 			$.ajax({
-				url: Symphony.Context.get('root') + '/symphony/extension/association_ui_selector/get/',
+				url: Symphony.Context.get('root') + '/symphony/extension/association_ui_selector_materie/get/',
 				data: {
 					entry_id: entryId,
 					field_id: fieldId
@@ -160,7 +160,7 @@
 			id = item.data('value');
 
 			$.ajax({
-				url: Symphony.Context.get('root') + '/symphony/extension/association_ui_selector/query/',
+				url: Symphony.Context.get('root') + '/symphony/extension/association_ui_selector_materie/query/',
 				data: {
 					field_id: fieldId,
 					query: item.data('value'),
@@ -179,7 +179,7 @@
 
 		var fetchItem = function(entryId, fieldId, numeric, callback) {
 			$.ajax({
-				url: Symphony.Context.get('root') + '/symphony/extension/association_ui_selector/get/',
+				url: Symphony.Context.get('root') + '/symphony/extension/association_ui_selector_materie/get/',
 				data: {
 					entry_id: entryId,
 					field_id: fieldId
@@ -199,7 +199,7 @@
 
 		var fetchOptions = function(fieldId, query, limit, numeric, callback) {
 			$.ajax({
-				url: Symphony.Context.get('root') + '/symphony/extension/association_ui_selector/query/',
+				url: Symphony.Context.get('root') + '/symphony/extension/association_ui_selector_materie/query/',
 				data: {
 					field_id: fieldId,
 					query: encodeURIComponent(query),

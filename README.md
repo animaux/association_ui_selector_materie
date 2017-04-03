@@ -1,6 +1,6 @@
 ## Association UI for Symphony: Selector (Materie)
 
-Fork from »Association UI: Selector« with different UI design. Needs to be used together with [Association UI: Editor (Materie)](https://github.com/animaux/association_ui_editor)!
+Fork from »Association UI: Selector« with different UI design. Needs to be used together with [Association UI: Editor (Materie)](https://github.com/animaux/association_ui_editor_materie)!
 
 ![Interface preview](https://cloud.githubusercontent.com/assets/446874/13914883/96728666-ef51-11e5-8125-347aea883526.png)
 
