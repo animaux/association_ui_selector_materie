@@ -17,6 +17,9 @@
 		</author>
 	</authors>
 	<releases>
+	  <release version="1.4.6" date="2017-04-05" min="2.5" max="2.x.x">
+			- Fix misnamed classes in /content/*
+		</release>
 	  <release version="1.4.5" date="2017-01-31" min="2.5" max="2.x.x">
 			- Include MORE changes in source repo from @jonmifsud!
 		</release>

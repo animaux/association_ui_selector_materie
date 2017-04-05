@@ -2,7 +2,7 @@
 
 require_once(TOOLKIT . '/class.jsonpage.php');
 
-Class contentExtensionAssociation_ui_selectorQuery extends JSONPage
+Class contentExtensionAssociation_ui_selector_materieQuery extends JSONPage
 {
 
     public function view()
