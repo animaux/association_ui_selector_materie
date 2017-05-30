@@ -211,18 +211,20 @@
 				},
 				success: function(result) {
 					var entries = [];
+          
+          if (typeof result.entries != "undefined" && result.entries != null && result.entries.length > 0) {
+            $.each(result.entries, function(id, data) {
+              entries.push({
+                value: (numeric === true ? id : data.value),
+                text: data.value,
+                section: data.section,
+                link: data.link,
+                id: id
+              });
+            });
 
-					$.each(result.entries, function(id, data) {
-						entries.push({
-							value: (numeric === true ? id : data.value),
-							text: data.value,
-							section: data.section,
-							link: data.link,
-							id: id
-						});
-					});
-
-					callback(entries);
+            callback(entries);
+					}
 				}
 			});
 		};

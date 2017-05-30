@@ -17,6 +17,9 @@
 		</author>
 	</authors>
 	<releases>
+	  <release version="1.4.7" date="2017-05-30" min="2.5" max="2.x.x">
+			- Prevent JS-Error when result.entries is empty
+		</release>
 	  <release version="1.4.6" date="2017-04-05" min="2.5" max="2.x.x">
 			- Fix misnamed classes in /content/*
 		</release>
