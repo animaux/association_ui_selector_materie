@@ -212,7 +212,7 @@
 				success: function(result) {
 					var entries = [];
           
-          if (typeof result.entries != "undefined" && result.entries != null && result.entries.length > 0) {
+          if (typeof result.entries != "undefined" && result.entries != null) {
             $.each(result.entries, function(id, data) {
               entries.push({
                 value: (numeric === true ? id : data.value),

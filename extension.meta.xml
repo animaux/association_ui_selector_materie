@@ -17,6 +17,9 @@
 		</author>
 	</authors>
 	<releases>
+	  <release version="1.4.8" date="2018-07-31" min="2.5" max="2.x.x">
+			- Removed condition from previously added check, that always resulted in undefined thus somehow hiding entries when »limit entries shown« is set to a normal (low) number
+		</release>
 	  <release version="1.4.7" date="2017-05-30" min="2.5" max="2.x.x">
 			- Prevent JS-Error when result.entries is empty
 		</release>
