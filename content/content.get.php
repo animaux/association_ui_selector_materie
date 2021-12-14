@@ -8,7 +8,7 @@ Class contentExtensionAssociation_ui_selector_materieGet extends JSONPage
     public function view()
     {
         $entry_id = General::sanitize($_GET['entry_id']);
-        $field_ids = explode(',', General::sanitize($_GET['field_id']));
+        $field_ids = explode(',', General::sanitize($_GET['field_id'] ?? null));
 
         $parent_section_id = EntryManager::fetchEntrySectionID($entry_id);
 

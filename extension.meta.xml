@@ -17,6 +17,9 @@
 		</author>
 	</authors>
 	<releases>
+	  <release version="1.5.1" date="2021-12-14" min="2.7.10" max="2.x.x">
+			- PHP8 fixes (may require PHP7)
+		</release>
 	  <release version="1.5.0" date="2019-02-26" min="2.5" max="2.x.x">
 			- Symphony 2.7.8 compatibility
 		</release>
