@@ -58,7 +58,7 @@ Class contentExtensionAssociation_ui_selector_materieQuery extends JSONPage
             $query = sprintf(
                 "SELECT * from sym_entries_data_%d WHERE %s%s;",
                 $field_id,
-                implode($where, " OR "),
+                implode(" OR ", $where),
                 $max
             );
         } else {

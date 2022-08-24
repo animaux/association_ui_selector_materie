@@ -17,6 +17,9 @@
 		</author>
 	</authors>
 	<releases>
+	  <release version="1.5.2" date="2022-08-24" min="2.7.10" max="2.x.x">
+			- Fix argument order for implode() in content.query.php
+		</release>
 	  <release version="1.5.1" date="2021-12-14" min="2.7.10" max="2.x.x">
 			- PHP8 fixes (may require PHP7)
 		</release>
